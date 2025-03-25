@@ -1,0 +1,24 @@
+{
+  "name": "typescript_walkthrough",
+  "version": "1.0.0",
+  "description": "Walkthrough and notes for TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red4cted25/typescript_walkthrough.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/red4cted25/typescript_walkthrough/issues"
+  },
+  "homepage": "https://github.com/red4cted25/typescript_walkthrough#readme",
+  "dependencies": {
+    "typescript": "^5.8.2"
+  }
+}
