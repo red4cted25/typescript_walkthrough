@@ -64,3 +64,26 @@ function greet(user: User) {
 function isOlder(user: User, checkAge: number) {
 	return checkAge > user.age;
 }
+
+class Employee {
+	empName: string; // public by default
+	protected empCode: number;
+	constructor(empCode:number, empName:string){
+		this.empCode = empCode;
+		this.empName = empName;
+	}
+}
+class SalesEmployee extends Employee {
+	private department: string = "Sales";
+	constructor(empCode:number, empName:string, department:string){
+		super(empCode, empName);
+		this.department = department;
+	}
+	public checkCode = () => console.log(this.empCode);
+}
+
+let emp = new Employee(123, "John Doe");
+
+let empObj = new SalesEmployee(234, "Jane Doe", "Sales");
+empObj.checkCode();
+// empObj.empCode;
