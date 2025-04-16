@@ -87,3 +87,21 @@ let emp = new Employee(123, "John Doe");
 let empObj = new SalesEmployee(234, "Jane Doe", "Sales");
 empObj.checkCode();
 // empObj.empCode;
+
+
+// ! Getters and Setters
+/* get mostRecentReport() {
+	if (this.lastReport) {
+		return this.lastReport;
+	}
+	throw new Error("No report found.");
+}
+
+set mostRecentReport(value: string) {
+	if (!value) {
+		throw new Error("Please pass in a valid value!");
+	}
+	this.addReport(value);
+} */
+
+	
